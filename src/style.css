@@ -228,7 +228,68 @@ nav {
   border-color: #fff;
 }
 
-/* Credibility Section */
+/* Showcase Section */
+.showcase-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.showcase-item {
+  text-align: center;
+}
+
+.showcase-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}
+
+.showcase-item h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.showcase-img-wrapper {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 40px;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  transition: all 0.5s ease;
+  cursor: crosshair;
+}
+
+.showcase-img-wrapper:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: scale(1.02);
+}
+
+.showcase-img-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  display: block;
+}
+
+.showcase-item p {
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Feature Grid Update */
 .section {
   padding: 140px 0;
 }
